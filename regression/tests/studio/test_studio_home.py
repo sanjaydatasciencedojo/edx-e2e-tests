@@ -43,7 +43,7 @@ class StudioHomeTest(WebAppTest):
             self.browser, self.course_info['org'], self.course_info['number'],
             self.course_info['run'])
 
-    def test_studio_course_select(self):
+    def atest_studio_course_select(self):
         """
         Verifies that user can select a course and navigate to its course
         outline page
@@ -84,7 +84,7 @@ class StudioFooterTest(WebAppTest):
         STUDIO_BASE_URL != STUDIO_STAGE_BASE_URL,
         "No link on sandbox"
     )  # LT-62
-    def test_studio_footer_links(self):
+    def atest_studio_footer_links(self):
         """
         Verifies that user can click and navigate to studio footer links
         Terms of Service
