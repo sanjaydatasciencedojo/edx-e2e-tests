@@ -23,7 +23,7 @@ DEMO_COURSE_PASSWORD = os.environ.get('USER_LOGIN_PASSWORD')
 class StudioCourseOutlineTest(WebAppTest):
     """Tests of the Course Outline in Studio."""
 
-    def test_course_outline(self):
+    def atest_course_outline(self):
         """
         Verifies that user can click Edit Start Date button and is navigated
         to Schedule and Details page, and that the Help link for
