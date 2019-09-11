@@ -67,7 +67,7 @@ class StudioLmsAdvancedComponentTest(StudioLmsComponentBaseTest):
         """
         super(StudioLmsAdvancedComponentTest, self).setUp()
 
-    def test_word_cloud_advanced_component(self):
+    def atest_word_cloud_advanced_component(self):
         """
         Verifies that user can add Word Cloud component on Studio and LMS
         """
