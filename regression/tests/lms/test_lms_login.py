@@ -36,7 +36,7 @@ class LoginTest(WebAppTest):
             'my courses',
             msg='User not logged in as expected.')
 
-    def test_remember_me(self):
+    def atest_remember_me(self):
         """
         Verifies that user can use Remember Me functionality
         """
